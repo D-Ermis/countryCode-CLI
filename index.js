@@ -25,7 +25,7 @@ if (getCode(name) == null) {
       let array = response.data;
       console.log('Holidays in ' + countryName);
       array.forEach(item => {
-        console.log(item.date);
+        console.log(item.date + ' ' + item.name);
       });
     })
     .catch(function(error) {

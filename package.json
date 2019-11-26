@@ -1,7 +1,7 @@
 {
-  "name": "countrycode-cli",
-  "version": "1.0.0",
-  "description": "Converts a country name to its corresponding country code",
+  "name": "@dogukanermis/countrycode-cli",
+  "version": "1.1.0",
+  "description": "A command line tool that takes a country name as parameter and gives the public holiday of the country for the current year",
   "main": "index.js",
   "bin": {
     "holidates": "index.js"
