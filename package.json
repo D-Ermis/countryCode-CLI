@@ -1,0 +1,26 @@
+{
+  "name": "countrycode-cli",
+  "version": "1.0.0",
+  "description": "Converts a country name to its corresponding country code",
+  "main": "index.js",
+  "bin": {
+    "holidates": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/D-Ermis/countryCode-CLI.git"
+  },
+  "author": "Dogukan Ermis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/D-Ermis/countryCode-CLI/issues"
+  },
+  "homepage": "https://github.com/D-Ermis/countryCode-CLI#readme",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "country-list": "^2.2.0"
+  }
+}
